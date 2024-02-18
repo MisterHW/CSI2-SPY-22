@@ -6,7 +6,7 @@
 
 ## Raspberry Pi Camera Debugging
 
-Prior work on https://github.com/jergling/MIPI-Spy offers a 15-pin, 1mm pitch PFC bridge PCB with probe points for all signals. RPI CM4 IO BOARD features one, Raspberry Pi 5 boards feature two 4-lane CSI2 camera ports using 22-pin, 0.5mm pitch FFC headers. 
+Prior work on https://github.com/jergling/MIPI-Spy offers a 15-pin, 1mm pitch FPC bridge PCB with probe points for all signals. RPI CM4 IO BOARD features one, Raspberry Pi 5 boards feature two 4-lane CSI2 camera ports using 22-pin, 0.5mm pitch FFC headers. 
 
 To obtain access to the associated I2C lines and to be able to hook up a logic analyzer, a matching PCB design is provided in this repository.
 
