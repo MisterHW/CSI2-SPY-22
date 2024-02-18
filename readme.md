@@ -6,7 +6,7 @@
 
 ## Raspberry Pi Camera Debugging
 
-Prior work on https://github.com/jergling/MIPI-Spy offers a 15-pin, 1mm pitch FPC bridge PCB with probe points for all signals. RPI CM4 IO BOARD features one, Raspberry Pi 5 boards feature two 4-lane CSI2 camera ports using 22-pin, 0.5mm pitch FFC headers. 
+Prior work on https://github.com/jergling/MIPI-Spy offers a 15-pin, 1mm pitch PFC bridge PCB with probe points for all signals. RPI CM4 IO BOARD features one, Raspberry Pi 5 boards feature two 4-lane CSI2 camera ports using 22-pin, 0.5mm pitch FFC headers. 
 
 To obtain access to the associated I2C lines and to be able to hook up a logic analyzer, a matching PCB design is provided in this repository.
 
@@ -28,6 +28,18 @@ Detailed Design Procedure* for an appropriate adaption via R1 thru R8.
 Populate Q1 (DMG1024), R5 (2k) and R7 (2k) to enable I2C. 
 
 ![](RevA/RevA_schematic.PNG)
+
+## Raspberry Pi 5 Connectors
+
+On The Raspberry Pi 5 board, the connector name labels J3 and J4 are not used as Pin 1 location indicators. 
+- Note RPi 5 J3 and J4 Pin 1 locations are on the inward facing side of the ZIF FPC connectors.
+- Orient CSI2-SPY-22 based on the Pin 1 and Pin 22 markings on the board.
+- Use a **same-side 22-pin 0.5mm** pitch flex print cable to connect the CSI2-SPY-22 board HOST side to RPi 5 CAM/DISP headers.
+- Erroenous connection (with an opposite-side flex print cable) will either lead to a disconnected state or the RPi 5 3.3V power rail will be shorted to GND.
+
+Raspberry Pi 5 camera connectors:
+
+![](RevA/Pi5_J3_J4_orientations.jpg)
 
 ## License
 
