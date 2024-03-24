@@ -1,6 +1,6 @@
 # CSI2-SPY-22
 
-[![Upload to - AISLER](https://img.shields.io/badge/Upload_to_-AISLER-ff8000)](https://aisler.net/p/new?url=https://github.com/MisterHW/CSI2-SPY-22/blob/master/CSI2-SPY-22-1A/CSI2-SPY-22-1A.kicad_pcb&ref=github)
+[![Upload to - AISLER](https://img.shields.io/badge/Upload_to_-AISLER-ff8000)](https://aisler.net/p/new?url=https://raw.githubusercontent.com/MisterHW/CSI2-SPY-22/master/CSI2-SPY-22-1A/CSI2-SPY-22-1A.kicad_pcb&ref=github)
 
 > [!WARNING]  
 > Rev.A layout and footprints have not been proven through prototyping yet. Replicate this design based on your own assessment. Follow the updates of this repository to be notified when more results have been added.
