@@ -2,7 +2,7 @@
 > [!WARNING]  
 > Rev.A layout and footprints have not been proven through prototyping yet. Replicate this design based on your own assessment. Follow the updates of this repository to be notified when more results have been added.
 
-![](RevA/RevA_3D_views.png)
+![](CSI2-SPY-22-1A/output/RevA_3D_views.png)
 
 ## Raspberry Pi Camera Debugging
 
@@ -27,7 +27,8 @@ Detailed Design Procedure* for an appropriate adaption via R1 thru R8.
 
 Populate Q1 (DMG1024), R5 (2k) and R7 (2k) to enable I2C. 
 
-![](RevA/RevA_schematic.PNG)
+![RevA_schematic](CSI2-SPY-22-1A/output/RevA_schematic.PNG)
+[Rev-1A schematic (pdf version)](CSI2-SPY-22-1A/output/RevA_schematic.pdf)
 
 ## Raspberry Pi 5 Connectors
 
@@ -39,7 +40,7 @@ On The Raspberry Pi 5 board, the connector name labels J3 and J4 are not used as
 
 Raspberry Pi 5 camera connectors:
 
-![](RevA/Pi5_J3_J4_orientations.jpg)
+![](CSI2-SPY-22-1A/setup/Pi5_J3_J4_orientations.jpg)
 
 ## License
 
@@ -57,4 +58,5 @@ As per CERN-OHL-S v2 section 4, should You produce hardware based on this source
 
 ## Changes
 
-- 2024-02 Rev. A release and initial documentation.
+- 2024-03 Rev. 1A release with part numbers and consolidated BOM
+- 2024-02 Rev. 1A pre-release and initial documentation.
