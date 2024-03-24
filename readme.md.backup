@@ -1,6 +1,16 @@
 # CSI2-SPY-22
+
+[![Upload to - AISLER](https://img.shields.io/badge/Upload_to_-AISLER-ff8000)](https://aisler.net/p/new?url=https://github.com/MisterHW/CSI2-SPY-22/blob/master/CSI2-SPY-22-1A/CSI2-SPY-22-1A.kicad_pcb&ref=github)
+
 > [!WARNING]  
 > Rev.A layout and footprints have not been proven through prototyping yet. Replicate this design based on your own assessment. Follow the updates of this repository to be notified when more results have been added.
+
+## CSI2-SPY-22-1A 
+
+This board fundamentally has two variants integrated into a single PCB. It can be fully populated, or one one side can be left unpopulated. Only one side may be used at a time, since the six broken-out signals are shared, but this allows easy testing under similar conditions with and without the re-timer IC
+
+- Front side: passive FPC extender with I2C tapping
+- Back side. active FPC extender based on the DPHY440 re-timer IC, with I2C tapping
 
 ![](CSI2-SPY-22-1A/output/RevA_3D_views.png)
 
@@ -41,6 +51,10 @@ On The Raspberry Pi 5 board, the connector name labels J3 and J4 are not used as
 Raspberry Pi 5 camera connectors:
 
 ![](CSI2-SPY-22-1A/setup/Pi5_J3_J4_orientations.jpg)
+
+## iBOM
+
+via htmlpreview.github.io: [2024-03-24_bom/ibom.html](http://htmlpreview.github.io/?https://github.com/MisterHW/CSI2-SPY-22/blob/master/CSI2-SPY-22-1A/output/2024-03-24_bom/ibom.html) 
 
 ## License
 
