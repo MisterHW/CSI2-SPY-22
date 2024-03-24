@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "DPHY440")(type "KiCad")(uri "${KIPRJMOD}/../libs/DPHY440.pretty/DPHY440.kicad_sym")(options "")(descr ""))
-)

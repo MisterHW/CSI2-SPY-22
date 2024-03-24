@@ -1,0 +1,10 @@
+(version 1)
+
+
+# larger clearance around any diff-pair
+(rule "dp clearance"
+	(severity ignore)
+    (constraint clearance (min "0.4mm"))
+    (condition "A.inDiffPair('*') && !AB.isCoupledDiffPair()")
+)
+
